@@ -31,7 +31,7 @@ function addData() {
 
   const x = { id: 4, name: "susan", age: "20", profession: "intern" };
   arr.push(x);
-  console.log(arr[arr.length-1]);
+  console.log(arr);
 
 
 }
