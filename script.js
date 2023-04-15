@@ -47,9 +47,9 @@ function concatenateArray() {
 
 
   const n = [
-    { id: 4, name: "rohan", age: "25", profession: "artist" },
-    { id: 5, name: "rachna", age: "22", profession: "biologist" },
-    { id: 6, name: "uday", age: "20", profession: "bussinessman" },
+    { id: 5, name: "rohan", age: "25", profession: "artist" },
+    { id: 6, name: "rachna", age: "22", profession: "biologist" },
+    { id: 7, name: "uday", age: "20", profession: "bussinessman" },
   ];
 
   arr = arr.concat(n);
