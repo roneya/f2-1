@@ -38,8 +38,8 @@ function addData() {
 
 function removeAdmin() {
   //Write your code here, just console.log
-  const f = arr.filter(e => e.profession !== "admin");
-  console.log(f);
+  arr = arr.filter(e => e.profession !== "admin");
+  console.log(arr);
 }
 
 function concatenateArray() {
@@ -52,7 +52,7 @@ function concatenateArray() {
     { id: 6, name: "uday", age: "20", profession: "bussinessman" },
   ];
 
-  const c = arr.concat(n);
+  arr = arr.concat(n);
 
-  console.log(c);
+  console.log(arr);
 }
